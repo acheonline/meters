@@ -1,0 +1,8 @@
+curl -d @src/main/resources/json/test_meters.json -H "Content-Type: application/json" http://localhost:8082/api/save
+curl -v localhost:8082/healthcheck
+curl -v localhost:8082/all
+
+curl -v http://localhost:8082/api/latest/?id=1
+curl -v http://localhost:8082/api/history/?sensorId=2&objectId=1&from=1565796720&to=1565796730
+
+curl -v http://localhost:8082/api/avg

@@ -1,0 +1,26 @@
+[
+  {
+    "objectId": 1,
+    "sensorId": 1,
+    "time": 1565796600,
+    "value": 9.4
+  },
+  {
+    "objectId": 1,
+    "sensorId": 3,
+    "time": 1565796601,
+    "value": 9.5
+  },
+  {
+    "objectId": 1,
+    "sensorId": 2,
+    "time": 1565796720,
+    "value": 14.2
+  },
+  {
+    "objectId": 1,
+    "sensorId": 2,
+    "time": 1565796730,
+    "value": 15.2
+  }
+]

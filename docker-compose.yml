@@ -1,0 +1,15 @@
+version: '2'
+services:
+  meters:
+    container_name: meters
+    image: meters-parent:latest
+    build: ""
+    ports:
+      - "8082:8082"
+    links:
+      - "db:redis"
+  db:
+    image: "redis:alpine"
+    hostname: redis
+    ports:
+      - "6379:6379"
