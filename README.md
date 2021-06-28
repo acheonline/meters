@@ -5,4 +5,3 @@
 
 3) ### running docker-compose file and execute application
    docker-compose up
-# meters
